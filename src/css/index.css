@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inter:wght@400;500;600;700&display=swap');
+*{
+    font-family: Inter;
+}
+
+/* HEADER */
+.bg-black{
+    background-color: #F3F4FB;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    gap: 25px;
+}
+.btn{
+    padding: 10px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 255px;
+    border-bottom: 1px solid #efefef;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}   
+.link{
+    display: flex;
+    gap: 25px;
+}
+.link li{
+    list-style: none;
+}
+.link li a{
+    text-decoration: none;
+    color: #888888;
+}
+.link li a:hover{
+    color: #4468E7;
+}
+.active{
+    color: white !important;
+}
+
+/* Content */
+
+.content{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    margin-top: 5px; 
+    padding: 20px 255px;
+}
+.content .btn{
+    padding: 10px 10px;
+    color: white;
+    width: max-content;
+    background-color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.content-title{
+    color: #4468E7;
+    font-size: 36px;
+    font-weight: 600;
+}
+.content-subtitle{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 400;
+}
+.appui-img{
+    margin-top: 5px;
+    width: 100%;
+}    
+
+/* FOOTER-CONTENT */
+.contents{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px 255px;
+    text-align: center;
+}
+.title{
+    color: #4468E7;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.type{
+    color: #888888;
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+.subtitle{
+    color: #888888;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* FOOTER */
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 255px;
+    border-top: 1px solid #efefef;
+}
